@@ -1,27 +1,21 @@
-#include <stdio.h>
-int main(){
-    int a ;
-    int b;
-    int c;
-    scanf("&d", &a);
-    scanf("%d", &b);
-    printf("%d,%d",a,b);
-    c = (a+b);
-    printf("Sum:%d",c);
-    return 0;
+#include <stdio.h>  
 
-}
-int main() {
-    int a;
-    int b;
-    int c;
+int main() {  
+    int a;  
+    int b;  
+    int c;  
 
-    scanf("%d", &a);  // Correct format specifier for reading integer a
-    scanf("%d", &b);  // Correct format specifier for reading integer b
+    // Prompt user for input  
+    printf("Enter two integers:\n");  
+    scanf("%d", &a);  // Read integer a  
+    scanf("%d", &b);  // Read integer b  
 
-    printf("%d, %d\n", a, b);  // Print a and b
-    c = (a + b);  // Calculate sum of a and b
-    printf("Sum: %d", c);  // Print the sum with the correct format
+    // Print the integers  
+    printf("You entered: %d, %d\n", a, b);  
 
-    return 0;
-}
+    // Calculate and print the sum  
+    c = a + b;  // Sum of a and b  
+    printf("Sum: %d\n", c);  // Print the sum  
+
+    return 0;  
+}  
