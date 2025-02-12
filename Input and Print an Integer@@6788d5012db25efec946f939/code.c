@@ -1,4 +1,4 @@
-#include<stdio.io>;
+#include<stdio.io>
 int main() {
     int a;
     scanf("%d",&a);
