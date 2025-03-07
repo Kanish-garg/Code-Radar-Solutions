@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-int a;
-int b;
-scanf("%d",&a);
-scanf("%d",&b);
+float a;
+float b;
+scanf("%f",&a);
+scanf("%f",&b);
 printf("Prouct: %f",a * b);
 return 0;
 }
