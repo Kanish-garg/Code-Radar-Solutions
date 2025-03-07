@@ -4,6 +4,6 @@ int a;
 int b;
 scanf("%d",&a);
 scanf("%d",&b);
-printf("Prouct"a * b);
+printf("Prouct: %d",a * b);
 return 0;
 }
