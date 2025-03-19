@@ -2,5 +2,5 @@
 int main;
 int n;
 int i;
-printf("enter the number"",n");
+printf("enter the number n");
 return;
