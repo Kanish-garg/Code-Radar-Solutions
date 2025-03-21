@@ -5,10 +5,8 @@ int main() {
     char s[100];
 
     // Read two strings from the user
-    printf("Enter the first string: ");
     scanf("%s", k);
 
-    printf("Enter the second string: ");
     scanf("%s", s);
 
     // Correct format for printing strings
