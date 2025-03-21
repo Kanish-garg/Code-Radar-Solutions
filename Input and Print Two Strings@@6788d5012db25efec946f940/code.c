@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mian(){
+int main(){
     string k;
     string s;
     scanf("%s",&k);
