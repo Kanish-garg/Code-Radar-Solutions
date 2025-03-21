@@ -3,8 +3,8 @@ int main(){
     int k;
     int j;
     int m;
-    float l
+    float l;
     l=(k+j+m)/3;
-    print(l)
+    print("%.2f",l)
 
 }
