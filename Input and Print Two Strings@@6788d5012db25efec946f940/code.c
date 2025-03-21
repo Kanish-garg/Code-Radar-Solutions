@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    string k;
-    string s;
+    str k;
+    str s;
     scanf("%s",&k);
     scanf("%s",&s);
     printf("You entered :",k "and" s);
