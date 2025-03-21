@@ -1,12 +1,14 @@
 #include <stdio.h>
-int main(){
-    int k;
-    int j;
-    int m;
-    int l;
-    l=(k+j+m)/3;
-    int l= float l;
-    printf("%.2f",l);
-    return 0;
 
+int main() {
+    int k, j, m;
+    float l;
+    scanf("%d %d %d", &k, &j, &m);
+
+
+    l = (k + j + m) / 3.0;  
+    
+    printf("The average is: %.2f\n", l);
+
+    return 0;
 }
