@@ -7,7 +7,7 @@ int main() {
     scanf("%f", &a);
 
     // Print the float value with 4 decimal places
-    printf("You entered: %.4f", a);
+    printf("You entered: , a);
 
     return 0;
 }
