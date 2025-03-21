@@ -6,5 +6,6 @@ int main(){
     float b;
     scanf("%f",&a);
     b=(a*a * (22/7));
-    printf("Area %.2f",b)
+    printf("Area %.2f",b);
+    return 0;
 }
