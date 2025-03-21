@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float a;
+    double a;
     
     // Read a float value
     scanf("%f", &a);
