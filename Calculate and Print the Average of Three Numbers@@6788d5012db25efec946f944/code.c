@@ -5,7 +5,7 @@ int main(){
     int m;
     int l;
     l=(k+j+m)/3;
-    float l;
+    int l= float l;
     printf("%.2f",l);
     return 0;
 
