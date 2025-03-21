@@ -8,7 +8,7 @@ int main() {
 
     l = (k + j + m) / 3.0;  
     
-    printf("Average : %.2f\n", l);
+    printf("Average: %.2f\n", l);
 
     return 0;
 }
