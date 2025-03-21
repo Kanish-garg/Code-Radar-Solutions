@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    double a;
-    
-    // Read a float value
-    scanf("%1f", &a);
+    double a;  // Use double for higher precision
 
-    // Print the float value with 4 decimal places
-    printf("You entered:%4lf\n" , a);
+    // Read a double value
+    scanf("%lf", &a);
+
+    // Print the value with 4 decimal places
+    printf("You entered: %.4lf\n", a);
 
     return 0;
 }
+
