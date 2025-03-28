@@ -1,8 +1,20 @@
 #include <stdio.h>
 int isSorted(int age[], int n) {
     for (int i = 1; i < n - 1; i++) {
-        // If the current element is greater than the next, the array is not sorted
         if (age[i+1] > age[i]||age[i]<age[i-1]) {
-            return i; // Not sorted
+            return i;
         }
     }
+    }
+int main(){
+    int a,n,c;
+    int age[a];
+    scanf("%d",&n );
+    for(int c=0;c<n-1;c++){
+        scanf("%d",&age[]);
+    }
+    if (isSorted(age,n)){
+        printf(i)
+    }
+
+}    
