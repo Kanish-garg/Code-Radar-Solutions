@@ -14,7 +14,7 @@ int main(){
         scanf("%d",&age[i]);
     }
     if (isSorted(age,n)){
-        printf(i)
+        printf("%d",i)
     }
 
 }    
