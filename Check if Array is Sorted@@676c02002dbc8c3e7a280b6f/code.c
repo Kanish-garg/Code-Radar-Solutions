@@ -29,9 +29,9 @@ int main() {
 
     // Check if array is sorted
     if (isSorted(age, N)) {
-        printf("Sorted.\n");
+        printf("Sorted\n");
     } else {
-        printf("Not Sorted.\n");
+        printf("Not Sorted\n");
     }
 
     return 0;
