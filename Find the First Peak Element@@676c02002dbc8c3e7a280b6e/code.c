@@ -11,7 +11,7 @@ int main(){
     int age[a];
     scanf("%d",&n );
     for(int c=0;c<n-1;c++){
-        scanf("%d",&age[]);
+        scanf("%d",&age[i]);
     }
     if (isSorted(age,n)){
         printf(i)
