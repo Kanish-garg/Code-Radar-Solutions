@@ -15,14 +15,14 @@ int main() {
     int N;
     
     // Input array size
-    printf("Enter the number of elements: ");
+    
     scanf("%d", &N);
     
     // Declare array
     int age[N];
 
     // Input array elements
-    printf("Enter %d elements: ", N);
+
     for (int i = 0; i < N; i++) {
         scanf("%d", &age[i]);
     }
