@@ -7,11 +7,11 @@ int isSorted(int age[], int n) {
     }
     }
 int main(){
-    int a,n,c;
+    int a,n,i;
     int age[a];
     scanf("%d",&n );
     for(int c=0;c<n-1;c++){
-        scanf("%d",&age[c]);
+        scanf("%d",&age[i]);
     }
     if (isSorted(age,n)){
         printf(i)
