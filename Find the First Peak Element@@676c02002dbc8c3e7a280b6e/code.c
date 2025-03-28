@@ -21,7 +21,7 @@ int main() {
 
     int res = isSorted(age, n);
 
-    if (res == -1) 
+    if (res == -1) {}
     else {
         printf("%d\n", res);
     }
