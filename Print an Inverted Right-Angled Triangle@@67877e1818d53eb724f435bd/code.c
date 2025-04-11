@@ -4,7 +4,9 @@ int n;
 int i;
 scanf("%d",n)
 for (i=0;i<n+1;i++;){
+    for(i==n){
     printf("*")
+    }
 }
 
 return 0;
