@@ -2,5 +2,9 @@
 int main;
 int n;
 int i;
-printf("enter the number n");
-return;
+scanf("%d",n)
+for (i=0;i<n+1;i++;){
+    printf("*")
+}
+
+return 0;
