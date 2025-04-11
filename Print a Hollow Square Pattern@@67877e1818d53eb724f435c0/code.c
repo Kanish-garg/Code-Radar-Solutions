@@ -16,8 +16,6 @@ int main() {
         }
         printf("*\n");
     }
-
-    // Print bottom border (only if n > 1)
     if (n > 1) {
         for (int i = 0; i < n; i++) {
             printf("*");
